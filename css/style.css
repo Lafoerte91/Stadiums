@@ -277,21 +277,57 @@ body {
 
 .request__flex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .request__flex-left {
+  color: var(--white-color);
 }
 .request__h4 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  margin-bottom: 20px;
+  max-width: 562px;
 }
 .request__h5 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  max-width: 562px;
 }
 .request__flex-right {
 }
-.request__button {
+.request__btn {
+  font-family: 'Oswald', sans-serif;
+  padding: 14px 30px;
+  border: none;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
 }
 .request__icon {
+  margin-right: 15px;;
 }
 
+@media (max-width: 1280px) {
+  .request {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .request__flex {
+    flex-wrap: wrap;
+  }
+}
 
 
 
