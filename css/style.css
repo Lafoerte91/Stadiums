@@ -329,5 +329,45 @@ body {
   }
 }
 
+.services {
+  padding: 150px 0;
+}
+
+.services__h2, .services__h4 {
+  color: #000000;
+  text-align: center;
+}
+
+.services__h2 {
+  margin-bottom: 66px;
+}
+
+.services__h4 {
+  margin: 0 auto;
+  max-width: 172px;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.services__icon {
+  margin: 0 auto 30px;
+}
+
+.services__grid-item {
+  padding: 59px 0;
+  background-color: #F7F7F7;
+  width: 350px;
+}
+
+.text-h4 {
+}
+
+
 
 
