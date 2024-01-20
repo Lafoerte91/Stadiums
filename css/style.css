@@ -472,7 +472,7 @@ body {
 
 .partners__flex {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -487,11 +487,19 @@ body {
 }
 
 @media (max-width: 1280px) {
-  
-}
+  .partners__flex {
+    justify-content: center;
+  }
 
-@media (max-width: 768px) {
-  
+  .partners__item {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .partners__item:last-child {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 
