@@ -125,6 +125,12 @@ body {
   margin-bottom: 35px;
 }
 
+@media (max-width: 1280px) {
+  .header__title {
+    padding: 0 15px;
+  }
+}
+
 @media (max-width: 380px) {
   .h1 {
     font-size: 46px;
@@ -430,29 +436,6 @@ body {
   max-width: 730px;
 }
 
-.open::before, .close::before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-image: url(../img/arrow-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 15px;
-}
-
-.open::before {
-  transform: rotate(-90deg);
-}
-
-.close + .question__p {
-  display: none;
-}
-
-.question__h3.open {
-  margin-bottom: 30px;
-}
-
 @media (max-width: 1280px) {
   .question {
     padding: 150px 15px;
@@ -561,6 +544,15 @@ body {
 .contacts__h2 {
   text-align: center;
   margin-bottom: 60px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts__email {
+  text-decoration: none;
 }
 
 .contacts__grid {
